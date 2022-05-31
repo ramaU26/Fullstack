@@ -1,0 +1,25 @@
+db.Users.insertMany([
+    {"nombre": "ramiro", "apellido": "Uarte", "edad": 22, "sexo": "Masculino"},
+    {"nombre": "Martin", "apellido": "mano", "edad": 30, "sexo": "Masculino"},
+    {"nombre": "jorge", "apellido": "catbury", "edad": 17, "sexo": "Masculino"},
+    {"nombre": "coro", "apellido": "nel", "edad": 16, "sexo": "Masculino"},
+    {"nombre": "giulliano", "apellido": "pasadeuva", "edad": 17, "sexo": "Masculino"},
+    {"nombre": "nicola", "apellido": "faina", "edad": 23, "sexo": "Masculino"},
+    {"nombre": "agustino", "apellido": "porton", "edad": 50, "sexo": "Masculino"},
+    {"nombre": "eveangelina", "apellido": "ranzio", "edad": 25, "sexo": "Femenino"},
+    {"nombre": "nora", "apellido": "nose", "edad": 17, "sexo": "Femenino"},
+    {"nombre": "tonela", "apellido": "blanda", "edad": 50, "sexo": "Femenino"},
+
+])
+
+db.products.insertMany([
+    {"nombre": "Tiburon", "price": 2000 , "stock": 50, "img": "https://i.pinimg.com/564x/b2/52/d7/b252d79c625c0fec0a1d2e1413697af1.jpg", "inCart": "False"  },
+    {"nombre": "Taza soniendo", "price":3000, "stock": 100, "img": "https://i.pinimg.com/564x/01/25/1e/01251eac295a933216d798ce900eb833.jpg", "inCart": "False"  },
+    {"nombre": "Taza sorprendia", "price":3000 , "stock": 80, "img": "https://i.pinimg.com/564x/b8/e8/68/b8e868d6aa08acf08633f63d50e67ddf.jpg", "inCart": "False"  },
+    {"nombre": "Ojon", "price":1500 , "stock": 60, "img": "https://i.pinimg.com/564x/38/4e/e2/384ee2c98f16b8bee8064cef8f354412.jpg", "inCart": "False"  },
+    {"nombre": "Griton", "price":3500 , "stock": 40, "img": "https://i.pinimg.com/564x/38/dd/cc/38ddcc57913ea8d567e6eb8ad726fe61.jpg", "inCart": "False"  },
+    {"nombre": "Gato", "price": 4500, "stock": 50, "img": "https://i.pinimg.com/564x/38/dd/cc/38ddcc57913ea8d567e6eb8ad726fe61.jpg", "inCart": "False"  },
+    {"nombre": "triston", "price":2500 , "stock": 15, "img": "https://i.pinimg.com/564x/7a/a1/ac/7aa1acacfba480b306b5d4158ff8c009.jpg", "inCart": "False"  },
+    {"nombre": "Monkey", "price": 8000, "stock": 42, "img":"https://i.pinimg.com/564x/f1/ac/0d/f1ac0ddf1ae0c7eabc8aa9cc34ff38f2.jpg" , "inCart": "False"  },
+
+])
